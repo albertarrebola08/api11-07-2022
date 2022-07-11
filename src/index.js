@@ -16,7 +16,7 @@ app.get('/',(req, res) =>{
     res.status(200).json({
         error:false,
         mensaje:'Estás en la api de ' + nombre,
-        puerto:"process.env.PORT"
+        puerto: process.env.PORT
 
     })
 })
